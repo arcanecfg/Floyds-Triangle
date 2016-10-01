@@ -10,7 +10,6 @@ namespace BackToBasics
     {
         static void Main(string[] args)
         {
-
             int rows = 10;
             for (int i = 1; i <= rows; i++) 
             {
@@ -25,8 +24,7 @@ namespace BackToBasics
                         else
                         {
                             Console.Write('1');
-                        }
-                       
+                        }                       
                     }
                     else
                     {
@@ -38,14 +36,10 @@ namespace BackToBasics
                         {
                             Console.Write('0');
                         }
-
-                        
                     }
                 }
                 Console.WriteLine();
-            }
-    
-            
+            }               
             Console.ReadKey();
         }
     }
